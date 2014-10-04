@@ -37,7 +37,7 @@ public class balloon_controller : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D col) {
-		if (col.gameObject.name == "wall") {
+		if (col.gameObject.tag == "popper") {
 			Destroy (gameObject);
 		}
 	}
