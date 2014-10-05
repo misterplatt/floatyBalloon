@@ -1,10 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Camera2D.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\balloon_controller.cs">
     <Files>
-      <File FileName="Assets\Standard Assets\Scripts\laser_gun.cs" Line="13" Column="12" />
-      <File FileName="Assets\Camera2D.cs" Line="18" Column="27" />
-      <File FileName="Assets\Standard Assets\Scripts\balloon_controller.cs" Line="44" Column="25" />
+      <File FileName="Assets\Standard Assets\Scripts\balloon_controller.cs" Line="54" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\balloon_controller.cs" Line="12" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

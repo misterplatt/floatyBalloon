@@ -9,7 +9,7 @@ public class balloon_controller : MonoBehaviour {
 	public float addLRSpeed;
 	public float maxLRSpeed;
 
-	private static bool popped = false;
+	public AudioClip pop;
 
 	// Use this for initialization
 	void Start () {
@@ -40,6 +40,7 @@ public class balloon_controller : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D col) {
 		if (col.gameObject.tag == "popper") {
+			AudioSource.PlayClipAtPoint(pop, transform.position);
 			gameObject.SetActive(false);
 			Invoke ("reload", .75f);
 		}
