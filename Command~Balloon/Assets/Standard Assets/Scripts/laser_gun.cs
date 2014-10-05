@@ -18,7 +18,7 @@ public class laser_gun : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (laserReady) {
-			fire = Instantiate(laser, shootFrom.transform.position, Quaternion.FromToRotation(Vector3.up, transform.forward)) as GameObject;
+			fire = Instantiate(laser, shootFrom.transform.position, transform.rotation) as GameObject;
 			laserReady = false;
 			Invoke ("laserOff", laserCD);
 		}

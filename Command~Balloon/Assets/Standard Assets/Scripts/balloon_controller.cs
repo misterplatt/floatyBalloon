@@ -9,9 +9,11 @@ public class balloon_controller : MonoBehaviour {
 	public float addLRSpeed;
 	public float maxLRSpeed;
 
+	private static bool popped = false;
+
 	// Use this for initialization
 	void Start () {
-	
+
 	}
 	
 	// Update is called once per frame
@@ -38,8 +40,13 @@ public class balloon_controller : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D col) {
 		if (col.gameObject.tag == "popper") {
-			Destroy (gameObject);
+			gameObject.SetActive(false);
+			Invoke ("reload", .75f);
 		}
+	}
+
+	void reload(){
+		Application.LoadLevel(Application.loadedLevelName);
 	}
 
 }
