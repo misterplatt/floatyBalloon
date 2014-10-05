@@ -26,7 +26,9 @@ public class finish : MonoBehaviour {
 			Application.LoadLevel ("Level5");	
 		} else if (levelNumber == 5) {
 			Application.LoadLevel ("Level6");	
-		} 
+		} else if (levelNumber == 6) {
+			//Victory screen
+		}
 	}
 
 }

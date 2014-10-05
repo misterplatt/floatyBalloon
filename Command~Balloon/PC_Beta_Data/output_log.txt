@@ -1,0 +1,34 @@
+Initialize engine version: 4.5.2f1 (9abb1b59b47c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: Mobile Intel(R) 965 Express Chipset Family (ID=0x2a02)
+    Vendor:   Intel
+    VRAM:     0 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Sam\Desktop\floatyBalloon\Command~Balloon\PC_Beta_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Sam\Desktop\floatyBalloon\Command~Balloon\PC_Beta_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Sam\Desktop\floatyBalloon\Command~Balloon\PC_Beta_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Sam\Desktop\floatyBalloon\Command~Balloon\PC_Beta_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Sam\Desktop\floatyBalloon\Command~Balloon\PC_Beta_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Sam\Desktop\floatyBalloon\Command~Balloon\PC_Beta_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Sam\Desktop\floatyBalloon\Command~Balloon\PC_Beta_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Sam\Desktop\floatyBalloon\Command~Balloon\PC_Beta_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Sam\Desktop\floatyBalloon\Command~Balloon\PC_Beta_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Sam\Desktop\floatyBalloon\Command~Balloon\PC_Beta_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.725 seconds
+desktop: 1280x800 60Hz; virtual: 1280x800 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 1.137420 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 146.
+Total: 4.098683 ms (FindLiveObjects: 0.050643 ms CreateObjectMapping: 0.026006 ms MarkObjects: 0.165617 ms  DeleteObjects: 0.010265 ms)
+
+UnloadTime: 0.851354 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 172.
+Total: 4.247875 ms (FindLiveObjects: 0.021899 ms CreateObjectMapping: 0.026690 ms MarkObjects: 0.166985 ms  DeleteObjects: 0.010949 ms)
+
