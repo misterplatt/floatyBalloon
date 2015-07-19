@@ -4,31 +4,32 @@ using System.Collections;
 public class finish : MonoBehaviour {
 
 	public float levelNumber;
+	public AudioClip victory;
+	public GameObject player;
+
+	bool freeze = false;
 
 	// Use this for initialization
 	void Start () {
-	
+		player = GameObject.Find ("balloon");
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if (freeze) {
+			player.GetComponent<Rigidbody2D>().isKinematic = true;			
+		}
 	}
 
 	void OnTriggerEnter2D(Collider2D hit) {
-		if (levelNumber == 1) {
-			Application.LoadLevel ("Level2");	
-		} else if (levelNumber == 2) {
-			Application.LoadLevel ("Level3");	
-		} else if (levelNumber == 3) {
-			Application.LoadLevel ("Level4");	
-		} else if (levelNumber == 4) {
-			Application.LoadLevel ("Level5");	
-		} else if (levelNumber == 5) {
-			Application.LoadLevel ("Level6");	
-		} else if (levelNumber == 6) {
-			//Victory screen
-		}
+		freeze = true;
+		AudioSource.PlayClipAtPoint (victory, transform.position);
+		Invoke ("nextLevel", 1f);
 	}
+
+	void nextLevel () {
+		Application.LoadLevel ("Level" + levelNumber);
+	}
+
 
 }
